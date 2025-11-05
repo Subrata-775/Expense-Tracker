@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { useUser } from "@clerk/nextjs";
-import SideNav from "./_components/SideNav";
+import SideNav from "./_components/sideNav_temp";
 import DashboardHeader from "./_components/DashboardHeader";
 import { db } from "@/utils/dbConfig";
 import { Budgets } from "@/utils/schema";
